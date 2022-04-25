@@ -10,3 +10,7 @@ Its uses python opencv and Mediapipe
 pip install -r .\requirements.txt
 ```
 4. Run this main.py using Virtual Enviroments interpreter.
+5. To use the realtime camera just uncomment this line 
+```python
+cap = cv2.VideoCapture(0)
+```
